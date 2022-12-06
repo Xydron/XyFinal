@@ -2,6 +2,22 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Anybody", cursive;
+    text-align: center;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.columnSideLeft {
+    float: left;
+    width: 20%;
+}
+
 .columnNav {
     float: left;
     width: 15%;
@@ -10,14 +26,14 @@
 
 .columnCenter {
     float: left;
-    width: 60%;
+    width: 45%;
     padding: 5px;
+
 }
 
-.columnSidebar{
-    float: left;
-    width: 25%;
-    padding: 5px;
+.columnSideRight {
+    float: right;
+    width: 20%;
 }
 
 .row:after {
@@ -26,6 +42,20 @@
     clear: both;
 }
 
-h1, h2 {
-    text-align: center;
+
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+li {
+    display: inline-block;
 }
