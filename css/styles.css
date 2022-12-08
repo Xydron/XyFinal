@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+
+
+/*fonts*/
 h1, h2, h3, h4, h5, h6 {
     font-family: "Anybody", cursive;
     text-align: center;
@@ -12,22 +15,36 @@ body {
 }
 
 
+/*Layout*/
+header{
+    text-align: center;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
 
 .columnSideLeft {
     float: left;
     width: 20%;
 }
 
+.columnHeader {
+    float: left;
+    width: 100%;
+
+}
+
 .columnNav {
     float: left;
     width: 15%;
-    padding: 5px;
+
 }
 
 .columnCenter {
     float: left;
     width: 45%;
-    padding: 5px;
+
 
 }
 
@@ -44,6 +61,7 @@ body {
 
 
 
+/*Headers*/
 h1 {
     font-size: 72px;
 }
@@ -59,3 +77,34 @@ h3 {
 li {
     display: inline-block;
 }
+
+
+
+.columnHeader, .columnCenter, .columnNav {
+    background-image: url("../img/background.jpg");
+}
+
+header, nav, .columnHeader, .columnCenter, .columnNav {
+    border-radius: 2px;
+    color: rgb(240, 2240, 240);
+}
+
+.columnContent {
+    background-color: rgba(20, 20, 20, .6);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+
+.centerBox, iframe {
+    text-align: center;
+    
+}
+/*
+header, .columnCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
