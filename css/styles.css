@@ -32,7 +32,6 @@ body {
 .columnHeader {
     float: left;
     width: 100%;
-
 }
 
 .columnNav {
@@ -44,8 +43,6 @@ body {
 .columnCenter {
     float: left;
     width: 45%;
-
-
 }
 
 .columnSideRight {
@@ -78,6 +75,25 @@ li {
     display: inline-block;
 }
 
+
+
+/*Links*/
+a:link, a:visited {
+    background-color: rgb(25,90,101);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: rgb(157,34,50);
+}
+
+header ul li a:link, header ul li a:visited {
+    background-color: rgba(0, 0, 0, 0);
+}
 
 
 .columnHeader, .columnCenter, .columnNav {
