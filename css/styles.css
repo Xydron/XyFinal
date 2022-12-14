@@ -5,13 +5,20 @@
 
 
 /*fonts*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, header {
     font-family: "Anybody", cursive;
     text-align: center;
+    color: white;
 }
 
 body {
     font-family: "Inter", sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
 }
 
 
